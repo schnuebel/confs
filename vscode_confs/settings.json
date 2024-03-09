@@ -1,109 +1,64 @@
 {
-
     "workbench.colorTheme": "GitHub Dark Default",
-
     "angular.forceStrictTemplates": true,
-
     "editor.cursorSurroundingLines": 20,
-
     "editor.lineNumbers": "relative",
-
     "vim.easymotion": true,
-
     "vim.normalModeKeyBindingsNonRecursive": [
-
         {
-
             "before": [
-
                 "<leader>",
-
                 "s"
-
             ],
-
             "commands": [
-
                 "workbench.action.editor.nextChange"
-
             ]
-
         },
-
         {
-
             "before": [
-
                 "<leader>",
-
                 "w"
-
             ],
-
             "commands": [
-
                 "workbench.action.editor.previousChange"
-
             ]
-
         },
-
         {
-
             "before": [
-
                 "<leader>",
-
                 "q"
-
             ],
-
             "commands": [
-
                 "workbench.action.closeActiveEditor"
-
             ]
-
         },
-
         {
-
             "before": [
-
                 "<leader>",
-
                 "n"
-
             ],
-
             "commands": [
-
                 ":bn"   
-
             ]
-
         },
-
         {
-
             "before": [
-
                 "<leader>",
-
                 "p"
-
             ],
-
             "commands": [
-
                 ":bp"   
-
             ]
-
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
         }
-
     ],
-
     "vim.leader": "<space>"
-
 }
