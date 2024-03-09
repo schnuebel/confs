@@ -1,242 +1,109 @@
 {
-    //////////////////////////////////////////// 
-    //VIM stuff
+
+    "workbench.colorTheme": "GitHub Dark Default",
+
+    "angular.forceStrictTemplates": true,
+
+    "editor.cursorSurroundingLines": 20,
+
     "editor.lineNumbers": "relative",
-    "vim.leader": "<Space>",
-    "vim.hlsearch": true,
+
+    "vim.easymotion": true,
+
     "vim.normalModeKeyBindingsNonRecursive": [
-        // NAVIGATION
-        // center after half page jump
+
         {
+
             "before": [
-                "<C-u>"
-            ],
-            "after": [
-                "<C-u>",
-                "z",
-                "z"
-            ]
-        },
-        {
-            "before": [
-                "<C-d>"
-            ],
-            "after": [
-                "<C-d>",
-                "z",
-                "z"
-            ]
-        },
-        // switch b/w buffers
-        {
-            "before": [
-                "<S-h>"
-            ],
-            "commands": [
-                ":bprevious"
-            ]
-        },
-        {
-            "before": [
-                "<S-l>"
-            ],
-            "commands": [
-                ":bnext"
-            ]
-        },
-        // splits
-        {
-            "before": [
-                "leader",
-                "v"
-            ],
-            "commands": [
-                ":vsplit"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "s"
-            ],
-            "commands": [
-                ":split"
-            ]
-        },
-        // panes
-        {
-            "before": [
-                "leader",
-                "h"
-            ],
-            "commands": [
-                "workbench.action.focusLeftGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "j"
-            ],
-            "commands": [
-                "workbench.action.focusBelowGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "k"
-            ],
-            "commands": [
-                "workbench.action.focusAboveGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "l"
-            ],
-            "commands": [
-                "workbench.action.focusRightGroup"
-            ]
-        },
-        // NICE TO HAVE
-        {
-            "before": [
-                "leader",
-                "w"
-            ],
-            "commands": [
-                ":w!"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "q"
-            ],
-            "commands": [
-                ":q!"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "x"
-            ],
-            "commands": [
-                ":x!"
-            ]
-        },
-        {
-            "before": [
-                "[",
-                "d"
-            ],
-            "commands": [
-                "editor.action.marker.prev"
-            ]
-        },
-        {
-            "before": [
-                "]",
-                "d"
-            ],
-            "commands": [
-                "editor.action.marker.next"
-            ]
-        },
-        {
-            "before": [
+
                 "<leader>",
-                "c",
-                "a"
+
+                "s"
+
             ],
+
             "commands": [
-                "editor.action.quickFix"
+
+                "workbench.action.editor.nextChange"
+
             ]
+
         },
+
         {
+
             "before": [
-                "leader",
-                "f"
+
+                "<leader>",
+
+                "w"
+
             ],
+
             "commands": [
-                "workbench.action.quickOpen"
+
+                "workbench.action.editor.previousChange"
+
             ]
+
         },
+
         {
+
             "before": [
-                "leader",
+
+                "<leader>",
+
+                "q"
+
+            ],
+
+            "commands": [
+
+                "workbench.action.closeActiveEditor"
+
+            ]
+
+        },
+
+        {
+
+            "before": [
+
+                "<leader>",
+
+                "n"
+
+            ],
+
+            "commands": [
+
+                ":bn"   
+
+            ]
+
+        },
+
+        {
+
+            "before": [
+
+                "<leader>",
+
                 "p"
+
             ],
+
             "commands": [
-                "editor.action.formatDocument"
+
+                ":bp"   
+
             ]
-        },
-        {
-            "before": [
-                "g",
-                "h"
-            ],
-            "commands": [
-                "editor.action.showDefinitionPreviewHover"
-            ]
+
         }
+
     ],
-    "vim.visualModeKeyBindings": [
-        // Stay in visual mode while indenting
-        {
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        },
-        {
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        // Move selected lines while staying in visual mode
-        {
-            "before": [
-                "J"
-            ],
-            "commands": [
-                "editor.action.moveLinesDownAction"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "editor.action.moveLinesUpAction"
-            ]
-        },
-        // toggle comment selection
-        {
-            "before": [
-                "leader",
-                "c"
-            ],
-            "commands": [
-                "editor.action.commentLine"
-            ]
-        }
-    ],
-    //////////////////////////////////////////// 
-    "editor.formatOnSave": true,
-    "[json]": {},
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.fontSize": 10,
-    "window.zoomLevel": 1,
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Default High Contrast",
-    "workbench.activityBar.visible": false,
+
+    "vim.leader": "<space>"
+
 }

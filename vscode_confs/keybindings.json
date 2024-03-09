@@ -1,81 +1,33 @@
 // Place your key bindings in this file to override the defaults
+
 [
-    // NAVIGATION
+
     {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
+
+        "key": "ctrl+enter",
+
+        "command": "-github.copilot.generate",
+
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+
     },
+
     {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
+
+        "key": "ctrl+p",
+
+        "command": "workbench.action.quickOpen"
+
     },
+
     {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "workbench.action.terminal.new",
-        "when": "terminalFocus"
-    },
-    // SEARCH
-    {
-        "command": "workbench.action.toggleSidebarVisibility",
-        "key": "ctrl+t",
-    },
-    {
-        "command": "workbench.view.search.focus",
-        "key": "ctrl+t",
+
+        "key": "ctrl+h",
+
+        "command": "editor.action.showHover",
+
         "when": "editorTextFocus"
-    },
-    // FILE TREE
-    {
-        "command": "workbench.action.toggleSidebarVisibility",
-        "key": "ctrl+e",
-    },
-    {
-        "command": "workbench.files.action.focusFilesExplorer",
-        "key": "ctrl+e",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "n",
-        "command": "explorer.newFile",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "renameFile",
-        "key": "r",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "key": "shift+n",
-        "command": "explorer.newFolder",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "command": "deleteFile",
-        "key": "d",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    // EXTRA
-    {
-        "key": "ctrl+shift+5",
-        "command": "editor.emmet.action.matchTag"
-    },
-    {
-        "key": "ctrl+z",
-        "command": "workbench.action.toggleZenMode"
-    },
-    {
-        "key": "space f",
-        "command": "workbench.action.quickOpen",
-        "when": "!editorFocus && !inputFocus"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpen"
+
     }
+
 ]
