@@ -1,4 +1,5 @@
 {
+  "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Matrix",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground1": "#ff0000",
