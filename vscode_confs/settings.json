@@ -1,6 +1,8 @@
 {
+  "workbench.editor.wrapTabs": true,
+  "editor.rulers": [80],
   "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Matrix",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground1": "#ff0000",
     "editorIndentGuide.background1": "#cc6666"
